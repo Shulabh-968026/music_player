@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Music Player</title>
+        <link href="index.css" rel="stylesheet">
+        <script src="https://use.fontawesome.com/79e99b5f72.js"></script>
+        <link rel="stylesheet" href="C:\Users\Shulabh Dixit\Downloads\fontawesome-free-5.15.3-web\fontawesome-free-5.15.3-web\css\All.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="sub-container">
+                <h1 id="title">Title</h1>
+                <h2 id="artist">Arjit Shingh</h2>
+                <img src="music.jpg" alt="song"><br>
+                <div class="timer">
+                    <p id="startime">0:00</p>
+                    <p id="endtime">5:00</p>
+                </div>
+                <div class="progressBar">
+                   <div class="progress"></div> 
+                </div>
+                <div class="btns">
+                    <i class="fas fa-undo" id="undo" title="back 5 seconds"></i>
+                    <i class="fas fa-backward" id="backward" title="backward"></i>
+                    <i class="fas fa-play" id="play" title="play"></i>
+                    <i class="fas fa-forward" id="forward" title="forward"></i>
+                    <i class="fas fa-redo" id="redo" title="5 second skip"></i>
+                </div>
+                <audio src="song.mp3" type="audio/mpeg" autoplay></audio>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
